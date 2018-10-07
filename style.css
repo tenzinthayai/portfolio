@@ -1,0 +1,175 @@
+html, body {
+	height: 100%;
+	width: 100%
+}
+
+* {
+	box-sizing: border-box;
+}
+
+/*navigation-----------------*/
+
+.navbar {
+	background-color: #2d5986;/*#23415C;*/
+	padding: 5px 25px 5px 10px;
+	font-size: 1.2em;
+}
+
+.navbar-brand {
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+.navbar-brand img {
+	height: 55px;
+	width: 55px;
+	border-radius: 5px;
+
+}
+.navbar-default .navbar-nav li a {
+	color: #FFF;
+	font-family: 'Poppins', sans-serif;
+}
+.navbar-default .navbar-nav li a:hover {
+	color: 	#ff3333;
+}
+
+.resume {
+	margin-top: 10px;
+	border: 1px solid #FFF;
+	border-radius: 5px;
+	background-color: transparent;
+	color: #D5D5D5;
+}
+.resume:hover {
+	color: #FFF;
+}
+.t-border {
+  border-top: 2px solid #dfe2e6;
+  width: 50%;
+  margin: auto;
+}
+/*header-----------------*/
+
+#home {
+	background: url(img/nyskyline1.jpg) no-repeat center center fixed;
+	display: table;
+	height: 600px;
+	position: relative;
+	width: 100%;
+	background-size: cover;
+
+}
+
+/*main page-----------------*/
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: bottom;
+	font-family: 'Quicksand', sans-serif;
+	color: #fff;
+	padding-bottom: 100px;
+}
+.landing-text h1 {
+	font-size: 650%;
+	font-weight: normal;
+}
+.landing-text h3 {
+	font-weight: normal;
+	font-size: 250%;
+}
+.padding {
+	padding: 80px 0;
+}
+.padding img {
+	width: 100%;
+}
+.header-padding {
+	padding: 0 0 30px;
+}
+.about, .projects, .skills{
+	font-family: 'Poppins', sans-serif;
+	padding-bottom: 50px;
+}
+
+p{
+	font-size: 1.2em;
+}
+/*footer----------------*/
+
+footer {
+	width: 100%;
+	background-color: #2d5986;
+	padding: 2% 2% 2% 2%;
+	color: #FFF;
+}
+.footer-logo img{
+		border-radius: 5px;
+}
+.fa {
+	padding: 15px;
+	font-size: 30px;
+	color: #FFF;
+}
+.fa:hover {
+	color: 	#ff3333;
+	text-decoration: none;
+    transform: scale(1.2) rotate(0deg);
+}
+.icon {
+	max-width: 200px;
+}
+
+/*media queries-----------------*/
+
+@media (max-width: 768px) {
+	.landing-text h1 {
+		font-size: 400%;
+	}
+	.landing-text h3 {
+		font-size: 150%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+	}
+	.navbar-brand img {
+	height: 50px;
+	width: 50px;
+	border-radius: 5px;
+	}
+	.navbar {
+	padding: 5px 25px 5px 10px;
+	font-size: 1.2em;
+	}
+
+	.landing-text {
+	vertical-align: middle;
+	}
+	.resume {
+		margin-left: 12px;
+	}
+
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+	.navbar-brand img {
+	height: 55px;
+	width: 55px;
+	border-radius: 5px;
+
+}
+	.navbar {
+	padding: 5px 25px 5px 10px;
+	font-size: 1.2em;
+
+}
+
+}
+
+
+
