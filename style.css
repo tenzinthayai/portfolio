@@ -48,6 +48,14 @@ html, body {
   width: 50%;
   margin: auto;
 }
+a:hover {
+	color: #ff3333;
+	text-decoration: none;
+}
+a:visited {
+	color: #cc2900;
+	text-decoration: none;
+}
 /*header-----------------*/
 
 #home {
@@ -59,9 +67,7 @@ html, body {
 	background-size: cover;
 
 }
-
 /*main page-----------------*/
-
 .landing-text {
 	display: table-cell;
 	text-align: center;
@@ -84,6 +90,9 @@ html, body {
 .padding img {
 	width: 100%;
 }
+.padding-footer {
+	padding: 50px 0 0;
+}
 .header-padding {
 	padding: 0 0 30px;
 }
@@ -91,10 +100,30 @@ html, body {
 	font-family: 'Poppins', sans-serif;
 	padding-bottom: 50px;
 }
+.padding-proj h3, h4 {
+	font-family: 'Merriweather', sans-serif;
+	font-weight: bold;
+}
 
+.padding-proj {
+	padding-bottom: 20px;
+}
 p{
 	font-size: 1.2em;
 }
+.img-shadow {
+	box-shadow: 11px 11px 46px -6px rgba(0,0,0,0.61);
+}
+.colored {
+	font-size: 90px;
+}
+.devicon img {
+	width: 	30%;
+}
+.devicon {
+		padding-bottom: 50px;
+	}
+
 /*footer----------------*/
 
 footer {
@@ -103,6 +132,10 @@ footer {
 	padding: 2% 2% 2% 2%;
 	color: #FFF;
 }
+.footer-text h5{
+	font-size: 20px;
+}
+
 .footer-logo img{
 		border-radius: 5px;
 }
@@ -147,13 +180,25 @@ footer {
 	font-size: 1.2em;
 	}
 
-	.landing-text {
-	vertical-align: middle;
-	}
 	.resume {
 		margin-left: 12px;
 	}
-
+	.colored {
+		font-size: 65px;
+	}
+	.devicon {
+		padding-bottom: 20px;
+	}
+	.devicon img {
+	width: 	15%;
+	}
+	.footer-logo img{
+		height: 60px;
+		width: 	60px;
+	}
+	.about-pic {
+		padding-bottom: 20px;
+	}
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
@@ -161,14 +206,18 @@ footer {
 	height: 55px;
 	width: 55px;
 	border-radius: 5px;
-
-}
+	}
 	.navbar {
 	padding: 5px 25px 5px 10px;
 	font-size: 1.2em;
+	}
+	.devicon img {
+	width: 	40%;
+	}
 
-}
-
+	.devicon {
+		padding-bottom: 20px;
+	}
 }
 
 
