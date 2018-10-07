@@ -34,7 +34,7 @@ html, body {
 }
 
 .resume {
-	margin-top: 10px;
+	margin: 10px 5px 0;
 	border: 1px solid #FFF;
 	border-radius: 5px;
 	background-color: transparent;
@@ -114,14 +114,13 @@ p{
 .img-shadow {
 	box-shadow: 11px 11px 46px -6px rgba(0,0,0,0.61);
 }
-.colored {
-	font-size: 90px;
-}
+
 .devicon img {
 	width: 	30%;
 }
 .devicon {
 		padding-bottom: 50px;
+		font-size: 90px;
 	}
 
 /*footer----------------*/
@@ -183,7 +182,7 @@ footer {
 	.resume {
 		margin-left: 12px;
 	}
-	.colored {
+	.devicon {
 		font-size: 65px;
 	}
 	.devicon {
