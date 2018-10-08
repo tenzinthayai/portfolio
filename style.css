@@ -131,9 +131,6 @@ footer {
 	padding: 2% 2% 2% 2%;
 	color: #FFF;
 }
-.footer-text h5{
-	font-size: 20px;
-}
 
 .footer-logo img{
 		border-radius: 5px;
@@ -219,5 +216,20 @@ footer {
 	}
 }
 
-
+@media (max-width: 460px) {
+	
+	.fa {
+		font-size: 16px;
+		padding: 10px;
+	}
+	.devicon img {
+	width: 	20%;
+	}
+	.landing-text h1 {
+		font-size: 300%;
+	}
+	.landing-text h3 {
+		font-size: 150%;
+	}
+}		
 
