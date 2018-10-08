@@ -214,10 +214,6 @@ footer {
 		padding-bottom: 20px;
 		font-size: 85px;
 	}
-	.fa {
-		font-size: 25px;
-		padding: 10px;
-	}
 }
 
 @media (max-width: 460px) {
