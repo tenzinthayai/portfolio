@@ -17,7 +17,7 @@ html, body {
 
 .navbar-brand {
 	min-height: 55px;
-	padding: 0 15px 5px;
+	padding: 0 15px 5px;	
 }
 .navbar-brand img {
 	height: 55px;
@@ -149,6 +149,9 @@ footer {
 .icon {
 	max-width: 200px;
 }
+.footer-text h4 {
+		font-weight: normal;
+}
 
 /*media queries-----------------*/
 
@@ -194,6 +197,7 @@ footer {
 	.about-pic {
 		padding-bottom: 20px;
 	}
+
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
@@ -214,13 +218,18 @@ footer {
 		padding-bottom: 20px;
 		font-size: 85px;
 	}
+	.fa {
+		font-size: 30px;
+		padding: 10px;
+	}
+
 }
 
 @media (max-width: 460px) {
 	
 	.fa {
-		font-size: 16px;
-		padding: 10px;
+		font-size: 20px;
+		padding: 0 5px;
 	}
 	.devicon img {
 	width: 	20%;
@@ -230,6 +239,17 @@ footer {
 	}
 	.landing-text h3 {
 		font-size: 150%;
+	}
+	.footer-text h4 {
+		font-size: 12px;
+		font-weight: normal;
+	}
+	.footer-text h3 {
+		font-size: 16px;
+	}
+	.footer-logo img {
+		height: 40px;
+		width: 	40px;
 	}
 }		
 
