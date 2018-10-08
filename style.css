@@ -190,10 +190,6 @@ footer {
 	.devicon img {
 	width: 	15%;
 	}
-	.footer-logo img{
-		height: 60px;
-		width: 	60px;
-	}
 	.about-pic {
 		padding-bottom: 20px;
 	}
@@ -241,11 +237,11 @@ footer {
 		font-size: 150%;
 	}
 	.footer-text h4 {
-		font-size: 12px;
+		font-size: 14px;
 		font-weight: normal;
 	}
 	.footer-text h3 {
-		font-size: 16px;
+		font-size: 18px;
 	}
 	.footer-logo img {
 		height: 40px;
