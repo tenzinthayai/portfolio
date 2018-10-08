@@ -157,7 +157,7 @@ footer {
 
 @media (max-width: 768px) {
 	.landing-text h1 {
-		font-size: 400%;
+		font-size: 450%;
 	}
 	.landing-text h3 {
 		font-size: 170%;
@@ -234,7 +234,7 @@ footer {
 		font-size: 300%;
 	}
 	.landing-text h3 {
-		font-size: 150%;
+		font-size: 155%;
 	}
 	.footer-text h4 {
 		font-size: 14px;
@@ -247,5 +247,6 @@ footer {
 		height: 40px;
 		width: 	40px;
 	}
+
 }		
 
