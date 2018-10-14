@@ -109,6 +109,9 @@ a:visited {
 .padding-proj {
 	padding-bottom: 20px;
 }
+.proj-icon{
+	color: #fff;
+}
 p{
 	font-size: 1.2em;
 }
