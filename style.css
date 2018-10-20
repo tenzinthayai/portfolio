@@ -158,6 +158,9 @@ footer {
 /*media queries-----------------*/
 
 @media (max-width: 768px) {
+	#home img{
+		max-width: 100%;
+	}
 	.landing-text h1 {
 		font-size: 450%;
 	}
