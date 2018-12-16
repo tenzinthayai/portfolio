@@ -247,10 +247,11 @@ footer {
 		height: 40px;
 		width: 	40px;
 	}
-	#home {
-		max-width: 100%;
-		background: url(img/nyskyline1.jpg) no-repeat top center;
-	}
+	 #home {
+	    max-width: 100%;
+        background: url(img/nyskyline1.jpg) no-repeat top center;
+    }
+
 
 }		
 
