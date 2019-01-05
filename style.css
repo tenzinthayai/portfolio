@@ -56,6 +56,7 @@ a:visited {
 	color: #cc2900;
 	text-decoration: none;
 }
+
 /*header-----------------*/
 
 #home {
@@ -115,7 +116,7 @@ p{
 	font-size: 1.2em;
 }
 .img-shadow {
-	box-shadow: 11px 11px 46px -6px rgba(0,0,0,0.61);
+	box-shadow: 5px 7px 26px -6px rgba(0,0,0,0.31);
 }
 
 .devicon img {
