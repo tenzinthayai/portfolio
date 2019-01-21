@@ -11,7 +11,7 @@
   <link href="style.css" rel="stylesheet"/>
  <link rel="icon" type="image/png" href="img/logo/favicon.png">
  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-
+ <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 	<body>
@@ -26,7 +26,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#"><img src="img/logo/logosq.png"></a>
+					<a class="logot navbar-brand" href="#"><img src="img/logo/logosq.png"></a>
 				</div>
 				<div id="navbarCollapse"class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
@@ -62,7 +62,7 @@
 					<div class="col-lg-3 col-md-4 col-sm-5 col-xs-12 text-center">
 						<img class="about-pic" src="img/mypic.gif" class="img-responsive img-fluid">
 					</div>
-					<div class="col-lg-9 col-md-8 col-sm-7 col-xs-12 text-center">
+					<div class="about-text col-lg-9 col-md-8 col-sm-7 col-xs-12 text-center">
 						<p><strong>Hi, I'm Tenzin</strong>, a Frontend web developer based in <strong>NYC</strong>. I enjoy everything from building websites from scratch to deployment, and I love building beautiful and responsive websites. I graduated from NYC College of Technology with Bachelor in Computer Science and during my semester, I took Web Development course and since then, I fell in love with it... </p> 
 
 						<p>One of the best thing I find about Web Development is that you get to bring new ideas into a real life projects with fully functional live web sites, which is amazing! My goal is to create website contents that will satisfy viewers and customers with the information provided in a clean, beautiful and easy to navigate. I hope that the websites I will be able to work on can catch the attention of the world.</p>
@@ -85,10 +85,10 @@
 					<div class="projects col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 					  <h2>Projects</h2>
 					</div>
-					<div class="col-lg-6 col-md-4 col-sm-12 col-xs-12">
+					<div class="proj-imgs col-lg-6 col-md-4 col-sm-12 col-xs-12">
 					  <img src="img/random-quote.png" class="img-responsive img-shadow img-rounded" alt="lake tahoe visitor page">
 					</div>
-					<div class="col-lg-6 col-md-8 col-sm-12 col-xs-12">
+					<div class="proj-desc col-lg-6 col-md-8 col-sm-12 col-xs-12">
 					  	<h3 class="padding-proj">Random Quote Generator</h3>
 					  	<h4>Description:</h4>
 						<p>Random Quote Generator app does just like it sounds. When a user clicks on the button, a random quote will be generated. I used DOM, arrays, functions, objects and other methods in this project.</p>
@@ -103,10 +103,10 @@
 		<div class="padding">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-6 col-lg-push-6 col-md-4 col-sm-12 col-xs-12">
+					<div class="proj-imgs col-lg-6 col-lg-push-6 col-md-4 col-sm-12 col-xs-12">
 					  <img src="img/laketahoe-proj.png" class="img-responsive img-shadow img-rounded" alt="lake tahoe visitor page">
 					</div>
-					<div class="col-lg-6 col-lg-pull-6 col-md-8 col-sm-12 col-xs-12">
+					<div class="proj-desc col-lg-6 col-lg-pull-6 col-md-8 col-sm-12 col-xs-12">
 					  	<h3 class="padding-proj">Lake Tahoe</h3>
 					  	<h4>Description:</h4>
 						<p>"Lake Tahoe" is a information site for visitors or local campers who are planning to visit Lake Tahoe in California. One of the extremely popular destination year round. You'll find information about outdoor activities from hiking to winter skiing activities and packing guide.</p>
@@ -121,10 +121,10 @@
 		<div class="padding">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-6 col-md-4 col-sm-12 col-xs-12">
+					<div class="proj-imgs col-lg-6 col-md-4 col-sm-12 col-xs-12">
 					  <img src="img/vrexp.png" class="img-responsive img-shadow img-rounded">
 					</div>
-					<div class="col-lg-6 col-md-8 col-sm-12 col-xs-12">
+					<div class="proj-desc col-lg-6 col-md-8 col-sm-12 col-xs-12">
 					  	<h3 class="padding-proj">VR Experience</h3>
 					  	<h4>Description:</h4>
 						<p>"VR Exprience" is a simple blog site for people who wants to know more about VR technologies and technologies in general. Ways of using VR technologies to help others and articles about school's teachers using these techs to improve teaching methods in the classroom.</p>
@@ -142,29 +142,29 @@
 
 			<div class="padding" id="skills">
 				<div class="container">
-					<div class="row">
+					<div class="row skills-ico">
 						<div class="skills col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
 					  		<h2>Skills</h2>
 						</div>
-						<div class="col-sm-3 col-xs-4 text-center devicon">
+						<div class="ico-1 col-sm-3 col-xs-4 text-center devicon">
 							<i class="devicon-html5-plain-wordmark colored"></i>
 						</div>
-						<div class="col-sm-3 col-xs-4 text-center devicon">
+						<div class="ico-2 col-sm-3 col-xs-4 text-center devicon">
 							<i class="devicon-css3-plain-wordmark colored"></i>
 						</div>
-						<div class="col-sm-3 col-xs-4 text-center devicon">
+						<div class="ico-3 col-sm-3 col-xs-4 text-center devicon">
 							<i class="devicon-javascript-plain colored"></i>
 						</div>
-						<div class="col-sm-3 col-xs-4 text-center devicon">
+						<div class="ico-4 col-sm-3 col-xs-4 text-center devicon">
 							<i class="devicon-bootstrap-plain-wordmark colored"></i>
 						</div>
-						<div class="col-sm-4 col-xs-4 text-center devicon">
+						<div class="ico-5 col-sm-4 col-xs-4 text-center devicon">
 							<i class="devicon-wordpress-plain colored"></i>
 						</div>
-						<div class="col-sm-4 col-xs-4 text-center devicon">
+						<div class="ico-6 col-sm-4 col-xs-4 text-center devicon">
 							<i class="devicon-github-plain-wordmark colored"></i>
 						</div>
-						<div class="col-sm-4 col-xs-12 text-center devicon">
+						<div class="ico-7 col-sm-4 col-xs-12 text-center devicon">
 							<img src="img/logo/responsive-design-logo.png" class="skills-icon" alt="responsive web design">
 						</div>
 					</div>
@@ -208,6 +208,114 @@
  		</script>
  		<!-- JQuery lib -->
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+			<script>
+				window.sr = ScrollReveal();
+				//navbar animations
+				sr.reveal('.navbar',  {
+					duration: 3000,
+					origin: 'bottom'
+				});
+				sr.reveal('.logot',  {
+					duration: 2000,
+					// origin: 'left',
+					// distance: '200px',
+					scale: 3
+				});
+				//about animations
+				sr.reveal('.about-pic',  {
+					duration: 2000,
+					rotate: {
+						z: 120
+					},
+					scale: 2
+				});
+				sr.reveal('.landing-text',  {
+					duration: 4500,
+					origin: 'bottom',
+					distance: '100px'
+				});
+				sr.reveal('.about',  {
+					duration: 2000,
+					easing: 'ease-in'
+				});
+				sr.reveal('.about-text',  {
+					duration: 3500,
+					origin: 'right',
+					distance: '100px'
+				});
+				//projects animations
+				sr.reveal('.projects',  {
+					duration: 2000,
+					easing: 'ease-in'
+				});
+				sr.reveal('.proj-imgs',  {
+					duration: 2000,
+					origin: 'left',
+					distance: '300px',
+					viewFactor: 0.2
+				});
+				sr.reveal('.proj-desc',  {
+					duration: 2000,
+					origin: 'right',
+					distance: '300px',
+					viewFactor: 0.2
+				});
+				//skills icon animations
+				sr.reveal('.skills',  {
+					duration: 2000,
+					easing: 'ease-in'
+				});
+				sr.reveal('.ico-1',  {
+					delay: 100,
+					duration: 1000,
+					viewFactor: 0.2,
+					easing: 'ease-in'
+				});
+				sr.reveal('.ico-2',  {
+					delay: 200,
+					duration: 1100,
+					viewFactor: 0.2,
+					easing: 'ease-in'
+				});
+				sr.reveal('.ico-3',  {
+					delay: 300,
+					duration: 1200,
+					viewFactor: 0.2,
+					easing: 'ease-in'
+				});
+				sr.reveal('.ico-4',  {
+					delay: 400,
+					duration: 1300,
+					viewFactor: 0.2,
+					easing: 'ease-in'
+				});
+				sr.reveal('.ico-5',  {
+					delay: 500,
+					duration: 1400,
+					viewFactor: 0.2,
+					easing: 'ease-in'
+				});
+				sr.reveal('.ico-6',  {
+					delay: 600,
+					duration: 1500,
+					viewFactor: 0.2,
+					easing: 'ease-in'
+				});
+				sr.reveal('.ico-7',  {
+					delay: 700,
+					duration: 1600,
+					viewFactor: 0.2,
+					easing: 'ease-in'
+				});
+				//footer animations
+				sr.reveal('#contact',  {
+					duration: 2000,
+					viewFactor: 0.2,
+					easing: 'ease-in'
+				});
+
+			</script>
 			<!-- smooth scrolling -->
 			<script> 
 				$(document).ready(function(){
