@@ -1,8 +1,12 @@
 html, body {
 	height: 100%;
 	width: 100%
+	
 }
 
+body {
+	overflow-x: hidden;
+}
 * {
 	box-sizing: border-box;
 }
@@ -88,7 +92,7 @@ a:visited {
 #home {
 	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/nyskyline3.jpg) no-repeat center center fixed;
 	display: table;
-	height: 600px;
+	height: 680px;
 	position: relative;
 	width: 100%;
 	background-size: cover;
@@ -230,6 +234,7 @@ footer {
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
+
 	.navbar-brand img {
 	height: 55px;
 	width: 55px;
