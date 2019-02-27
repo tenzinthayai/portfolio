@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Fahkwang|Merriweather:400,700|Nanum+Gothic|Nunito|Poppins:400,500,600|Quicksand:400,500,700|Ubuntu" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fahkwang|Merriweather:400,700|Nanum+Gothic|Nunito|Poppins:300,400,500,600|Quicksand:400,500,700|Ubuntu" rel="stylesheet">
   <link href="style.css" rel="stylesheet"/>
  <link rel="icon" type="image/png" href="img/logo/favicon.png">
  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -65,7 +65,7 @@
 					<div class="about-text col-lg-9 col-md-8 col-sm-7 col-xs-12 text-center">
 						<p><strong>Hi, I'm Tenzin</strong>, a Frontend web developer based in <strong>NYC</strong>. I enjoy everything from building websites from scratch to deployment, and I love building beautiful and responsive websites. I graduated from NYC College of Technology with Bachelor in Computer Science and during my semester, I took Web Development course and since then, I fell in love with it... </p> 
 
-						<p>One of the best thing I find about Web Development is that you get to bring new ideas into a real life projects with fully functional live web sites, which is amazing! My goal is to create website contents that will satisfy viewers and customers with the information provided in a clean, beautiful and easy to navigate. I hope that the websites I will be able to work on can catch the attention of the world.</p>
+						<p>One of the best thing I find about Web Development is that you get to bring new ideas into a real life projects with fully functional live web sites and web apps which is amazing! My goal is to create website contents that will satisfy viewers and customers with the information provided in a clean, beautiful and easy to navigate.</p>
 						<p>When I'm not coding, you'll find me cooking, playing basketball or snowboarding upstate in the mountains during winter season.</p>
 						<p>If you are a business seeking a web presence or an employer looking to hire, you can <a href="#contact">get in touch</a> with me.</p>		
 
@@ -100,7 +100,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="padding">
+		<div class="padding-proj1">
 			<div class="container">
 				<div class="row">
 					<div class="proj-imgs col-lg-6 col-lg-push-6 col-md-4 col-sm-12 col-xs-12">
@@ -118,7 +118,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="padding">
+		<div class="padding-proj1">
 			<div class="container">
 				<div class="row">
 					<div class="proj-imgs col-lg-6 col-md-4 col-sm-12 col-xs-12">
@@ -136,6 +136,7 @@
 				</div>
 			</div>
 		</div>
+		<div class="padding-proj1">
 		<div class=" t-border"> </div>
 
 <!------- Skills------->
@@ -196,126 +197,21 @@
 				</footer>
 			</div>
 
-<!------- JS ------->		
+
+ 		<!-- JQuery lib -->
+ 			<script type="text/javascript" src="pluginscript.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+		<!------- JS ------->		
 
 		<script>$(function(){ 
 		     var navMain = $(".navbar-collapse");
 
-		     navMain.on("click", "a", null, function () {
+		     navMain.on("click", "#navbarCollapse>navbar-nav>li>a", null, function () {
 		         navMain.collapse('hide');
 		     });
 		     });
  		</script>
- 		<!-- JQuery lib -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-			<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-			<script>
-				window.sr = ScrollReveal();
-				//navbar animations
-				sr.reveal('.navbar',  {
-					duration: 3000,
-					origin: 'bottom'
-				});
-				sr.reveal('.logot',  {
-					duration: 2000,
-					// origin: 'left',
-					// distance: '200px',
-					scale: 3
-				});
-				//about animations
-				sr.reveal('.about-pic',  {
-					duration: 2000,
-					rotate: {
-						z: 120
-					},
-					scale: 2
-				});
-				sr.reveal('.landing-text',  {
-					duration: 4500,
-					origin: 'bottom',
-					distance: '100px'
-				});
-				sr.reveal('.about',  {
-					duration: 2000,
-					easing: 'ease-in'
-				});
-				sr.reveal('.about-text',  {
-					duration: 3500,
-					origin: 'right',
-					distance: '100px'
-				});
-				//projects animations
-				sr.reveal('.projects',  {
-					duration: 2000,
-					easing: 'ease-in'
-				});
-				sr.reveal('.proj-imgs',  {
-					duration: 2000,
-					origin: 'left',
-					distance: '300px',
-					viewFactor: 0.2
-				});
-				sr.reveal('.proj-desc',  {
-					duration: 2000,
-					origin: 'right',
-					distance: '300px',
-					viewFactor: 0.2
-				});
-				//skills icon animations
-				sr.reveal('.skills',  {
-					duration: 2000,
-					easing: 'ease-in'
-				});
-				sr.reveal('.ico-1',  {
-					delay: 100,
-					duration: 1000,
-					viewFactor: 0.2,
-					easing: 'ease-in'
-				});
-				sr.reveal('.ico-2',  {
-					delay: 200,
-					duration: 1100,
-					viewFactor: 0.2,
-					easing: 'ease-in'
-				});
-				sr.reveal('.ico-3',  {
-					delay: 300,
-					duration: 1200,
-					viewFactor: 0.2,
-					easing: 'ease-in'
-				});
-				sr.reveal('.ico-4',  {
-					delay: 400,
-					duration: 1300,
-					viewFactor: 0.2,
-					easing: 'ease-in'
-				});
-				sr.reveal('.ico-5',  {
-					delay: 500,
-					duration: 1400,
-					viewFactor: 0.2,
-					easing: 'ease-in'
-				});
-				sr.reveal('.ico-6',  {
-					delay: 600,
-					duration: 1500,
-					viewFactor: 0.2,
-					easing: 'ease-in'
-				});
-				sr.reveal('.ico-7',  {
-					delay: 700,
-					duration: 1600,
-					viewFactor: 0.2,
-					easing: 'ease-in'
-				});
-				//footer animations
-				sr.reveal('#contact',  {
-					duration: 2000,
-					viewFactor: 0.2,
-					easing: 'ease-in'
-				});
-
-			</script>
 			<!-- smooth scrolling -->
 			<script> 
 				$(document).ready(function(){
@@ -341,6 +237,19 @@
 				    } // End if
 				  });
 				});
+			</script>
+			<script>
+				$(document).ready(function() {
+		        // Transition effect for navbar 
+		        $(window).scroll(function() {
+		          // checks if window is scrolled more than 500px, adds/removes solid class
+		          if($(this).scrollTop() > 550) { 
+		              $('.navbar').addClass('solid');
+		          } else {
+		              $('.navbar').removeClass('solid');
+		          }
+		        });
+			});
 			</script>
 	</body>
 </html>
