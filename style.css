@@ -286,7 +286,10 @@ footer {
 		height: 40px;
 		width: 	40px;
 	}
-
+	#home {
+	background-position: center center;
+	height: 650px;
+	}	
 
 }		
 
