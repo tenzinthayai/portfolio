@@ -296,6 +296,7 @@ footer {
 		width: 	40px;
 	}
 	#home {
+	background-attachment: scroll;
 	background-position: center center;
 	height: 650px;
 	}	
