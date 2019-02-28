@@ -1,6 +1,6 @@
 html, body {
 	height: 100%;
-	width: 100%
+	width: 100%;
 	
 }
 
@@ -201,6 +201,23 @@ footer {
 /*media queries-----------------*/
 
 @media (max-width: 768px) {
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+    width: 30px;
+	}
+	.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 5px;
+	}
+	.navbar-toggle .icon-bar {
+    width: 25px;
+    height: 3px;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: transparent;
+	}
 	body {
 	overflow-x: hidden;
 	}
@@ -271,14 +288,15 @@ footer {
 	}
 	.padding {
 	padding: 40px 0;
-}
+	}
 
 }
 
 @media (max-width: 460px) {
+
 	body {
 	overflow-x: hidden;
-}
+	}
 	.fa {
 		font-size: 20px;
 		padding: 0 5px;
@@ -311,3 +329,4 @@ footer {
 
 }		
 
+vvvv
