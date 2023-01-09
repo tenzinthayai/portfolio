@@ -1,17 +1,22 @@
 //Scroll reveal plugins for animation
-			
+/*			
 window.sr = ScrollReveal();
 //navbar animations
 sr.reveal('.navbar',  {
 	duration: 3000,
 	origin: 'bottom'
 });
+
+
 sr.reveal('.logot',  {
 	duration: 2000,
 	// origin: 'left',
 	// distance: '200px',
 	scale: 3
 });
+*/
+/* disable animations
+
 //about animations
 sr.reveal('.about-pic',  {
 	duration: 2000,
@@ -104,3 +109,5 @@ sr.reveal('#contact',  {
 	viewFactor: 0.2,
 	easing: 'ease-in'
 });
+
+ disable animation end comment */
